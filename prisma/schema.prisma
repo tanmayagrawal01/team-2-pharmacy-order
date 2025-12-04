@@ -1,0 +1,53 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = "mongodb+srv://tanmayagrawal278_db_user:sr2Ct9HAbw8I56S9@pharmacy-order.vpkk2qb.mongodb.net/pharmacy-app?retryWrites=true&w=majority"
+}
+
+model User {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  email     String   @unique
+  name      String?
+  password  String
+  role      String   @default("CUSTOMER") // CUSTOMER, PHARMACIST, DELIVERY
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  orders    Order[]
+}
+
+model Product {
+  id                   String      @id @default(auto()) @map("_id") @db.ObjectId
+  name                 String
+  description          String
+  price                Float
+  stock                Int
+  requiresPrescription Boolean     @default(false)
+  image                String?
+  createdAt            DateTime    @default(now())
+  updatedAt            DateTime    @updatedAt
+  orderItems           OrderItem[]
+}
+
+model Order {
+  id              String      @id @default(auto()) @map("_id") @db.ObjectId
+  userId          String      @db.ObjectId
+  user            User        @relation(fields: [userId], references: [id])
+  status          String      @default("PENDING") // PENDING, VERIFIED, APPROVED, REJECTED, PROCESSING, OUT_FOR_DELIVERY, DELIVERED
+  total           Float
+  prescriptionUrl String?
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+  items           OrderItem[]
+}
+
+model OrderItem {
+  id        String  @id @default(auto()) @map("_id") @db.ObjectId
+  orderId   String  @db.ObjectId
+  order     Order   @relation(fields: [orderId], references: [id])
+  productId String  @db.ObjectId
+  product   Product @relation(fields: [productId], references: [id])
+  quantity  Int
+}
