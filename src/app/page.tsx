@@ -1,7 +1,7 @@
 import { Navbar } from '@/components/navbar'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
-import { ArrowRight, Upload, Search, Truck, ShieldCheck, Clock, Star, Quote } from 'lucide-react'
+import { ArrowRight, Upload, Search, Truck, ShieldCheck, Clock, Star, Quote, Pill, Heart, Stethoscope, Zap, Headphones, CreditCard, Activity, Thermometer } from 'lucide-react'
 import Image from 'next/image'
 
 export default function Home() {
@@ -125,6 +125,82 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+
+      </section>
+
+      {/* Popular Categories */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="flex justify-between items-end mb-12">
+            <div>
+              <h2 className="text-3xl font-bold text-slate-900 mb-2">Popular Categories</h2>
+              <p className="text-slate-600">Find exactly what you need for your health.</p>
+            </div>
+            <Link href="/catalog" className="text-blue-600 font-semibold hover:text-blue-700 flex items-center group">
+              View All <ArrowRight className="ml-2 h-4 w-4 transform group-hover:translate-x-1 transition-transform" />
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              { name: "Medicines", icon: Pill, color: "bg-blue-100 text-blue-600", count: "500+ Products" },
+              { name: "Personal Care", icon: Heart, color: "bg-rose-100 text-rose-600", count: "200+ Products" },
+              { name: "Health Devices", icon: Thermometer, color: "bg-amber-100 text-amber-600", count: "50+ Products" },
+              { name: "Supplements", icon: Activity, color: "bg-emerald-100 text-emerald-600", count: "150+ Products" }
+            ].map((cat, i) => (
+              <div key={i} className="group p-6 rounded-2xl border border-slate-100 hover:border-blue-100 hover:shadow-lg transition-all cursor-pointer bg-white">
+                <div className={`h-14 w-14 rounded-xl ${cat.color} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}>
+                  <cat.icon className="h-7 w-7" />
+                </div>
+                <h3 className="text-lg font-bold text-slate-900 mb-1">{cat.name}</h3>
+                <p className="text-sm text-slate-500">{cat.count}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Us */}
+      <section className="py-24 bg-slate-900 text-white overflow-hidden relative">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl -mr-32 -mt-32"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl -ml-32 -mb-32"></div>
+
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why PharmaCare?</h2>
+            <p className="text-slate-400 text-lg">We combine technology with healthcare to give you the best experience possible.</p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              {
+                title: "Super Fast Delivery",
+                desc: "Get your medicines delivered within 2 hours in selected cities.",
+                icon: Zap,
+                color: "text-yellow-400"
+              },
+              {
+                title: "100% Genuine Medicines",
+                desc: "We source directly from manufacturers to ensure authenticity.",
+                icon: ShieldCheck,
+                color: "text-blue-400"
+              },
+              {
+                title: "24/7 Pharmacist Support",
+                desc: "Expert advice available round the clock for your queries.",
+                icon: Headphones,
+                color: "text-green-400"
+              }
+            ].map((feature, i) => (
+              <div key={i} className="p-8 rounded-2xl bg-slate-800/50 backdrop-blur-sm border border-slate-700 hover:bg-slate-800 transition-colors">
+                <feature.icon className={`h-10 w-10 ${feature.color} mb-6`} />
+                <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
+                <p className="text-slate-400 leading-relaxed">{feature.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
 
       {/* How It Works */}
@@ -233,7 +309,7 @@ export default function Home() {
               </Button>
             </Link>
             <Link href="/catalog">
-              <Button size="lg" variant="outline" className="h-14 px-10 text-lg rounded-full border-slate-700 text-white hover:bg-slate-800 hover:text-white transition-all">
+              <Button size="lg" variant="outline" className="h-14 px-10 text-lg rounded-full border-slate-700 text-black hover:bg-slate-800 hover:text-white transition-all">
                 View Catalog
               </Button>
             </Link>
@@ -243,6 +319,6 @@ export default function Home() {
           </p>
         </div>
       </section>
-    </main>
+    </main >
   )
 }

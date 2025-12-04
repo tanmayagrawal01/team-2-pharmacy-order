@@ -1,11 +1,11 @@
+
+
 import { Navbar } from '@/components/navbar'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardFooter, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 import { AddToCartButton } from '@/components/add-to-cart-button'
-import { PrismaClient } from '@prisma/client'
+import { prisma } from '@/lib/prisma'
 import Image from 'next/image'
-
-const prisma = new PrismaClient()
 
 async function getProducts() {
     return await prisma.product.findMany()
