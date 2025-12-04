@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏥 Team-2 Pharmacy Ordering System
 
-## Getting Started
+A full-stack pharmacy ordering and management platform created by **Team-2**.  
+This system allows users to browse medicines, place orders, track order status,  
+while admins/pharmacists manage medicines, stock and orders.
 
-First, run the development server:
+Built using **Next.js**, **Node.js**, **Express**, **MongoDB**, and **Tailwind CSS**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 👤 User Features
+- Browse medicines
+- Search functionality
+- Add to cart
+- Place orders
+- Track order status
+- User authentication (login/register)
+- Secure API handling
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🧑‍⚕️ Admin / Pharmacist Features
+- Add new medicines
+- Update or delete medicines
+- Manage stock quantity
+- View & process orders
+- Update order status (Accepted → Dispatched → Delivered)
+- Dashboard for quick management
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Frontend
+- Next.js 14 (App Router)
+- React.js
+- Tailwind CSS
+- ShadCN UI components
+- Axios
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Backend
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- Prisma (for some modules, if used)
+- JWT Authentication
+- bcrypt (for password encryption)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📁 Project Folder Structure
