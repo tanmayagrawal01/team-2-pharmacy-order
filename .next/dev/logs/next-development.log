@@ -1,0 +1,442 @@
+[00:00:06.911] Server  LOG      ✓ Ready in 5.2s
+[00:00:13.110] Server  LOG      ○ Compiling / ...
+[00:00:25.978] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:33.877] Server  LOG      ○ Compiling /login ...
+[00:01:04.502] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:04.505] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:01:04.590] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:04.689] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:04.738] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:04.790] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:04.808] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:04.823] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:04.830] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:04.838] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:04.855] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:01:04.865] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:04.867] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:01:04.883] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:04.887] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:04.890] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:04.894] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:04.898] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:04.903] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:04.906] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:04.907] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:04.917] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:01:44.132] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.134] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:01:44.146] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.151] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.163] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.167] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.194] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.198] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.209] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.216] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.231] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:01:44.251] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.266] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:01:44.283] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.290] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.296] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.300] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.306] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.310] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.315] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.322] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.329] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:01:44.333] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.343] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:01:44.350] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.358] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.366] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.373] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.376] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.382] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.398] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.409] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.416] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:01:44.431] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.433] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:01:44.447] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.449] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.451] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.460] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.462] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.464] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.466] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.470] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.480] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:01:44.485] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.496] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:01:44.506] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.509] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.515] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.518] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.525] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.528] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.530] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.534] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.545] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:01:44.557] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.559] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:01:44.564] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.567] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.575] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.579] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.582] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.584] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.592] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.596] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:44.600] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:01:59.812] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:59.814] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:01:59.825] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:59.829] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:59.831] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:59.841] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:59.844] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:59.846] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:59.863] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:59.998] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.110] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:02:00.161] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.174] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:02:00.180] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.192] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.205] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.215] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.228] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.243] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.251] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.263] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.276] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:02:00.280] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.298] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:02:00.311] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.313] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.324] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.327] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.330] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.342] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.346] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.348] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.356] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:02:00.359] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.362] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:02:00.366] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.374] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.379] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.382] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.391] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.393] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.395] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.397] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.406] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:02:00.410] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.412] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:02:00.421] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.424] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.428] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.430] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.440] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.442] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.445] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.448] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.458] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:02:00.471] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.474] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:02:00.479] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.481] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.490] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.492] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.494] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.498] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.506] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.509] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:00.514] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:02:13.708] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:30.713] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.716] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:02:30.719] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.722] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.726] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.732] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.734] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.737] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.747] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.751] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.756] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:02:30.760] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.768] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:02:30.771] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.776] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.786] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.788] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.790] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.792] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.797] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.801] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.805] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:02:30.808] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.813] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:02:30.819] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.821] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.823] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.826] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.832] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.836] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.843] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.850] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.854] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:03:09.977] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__b1c0375f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:09.978] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:03:09.982] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:10.144] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_ee3d79e1._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:10.192] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:10.194] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:10.196] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:10.199] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:10.202] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:10.210] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:10.213] Server  ERROR   Registration error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__b1c0375f._.js:67:48
+
+  64 const body = await request.json();
+  65 const { name, email, password, role } = body;
+  66 // Check if user already exists
+→ 67 const existingUser = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:04:08.955] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__b1c0375f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:08.957] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:04:08.970] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:08.985] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_ee3d79e1._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:08.990] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:08.993] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:08.995] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:08.999] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:09.004] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:09.006] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:09.011] Server  ERROR   Registration error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__b1c0375f._.js:67:48
+
+  64 const body = await request.json();
+  65 const { name, email, password, role } = body;
+  66 // Check if user already exists
+→ 67 const existingUser = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:04:50.257] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__b1c0375f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:50.261] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:04:50.263] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:50.265] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_ee3d79e1._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:50.267] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:50.270] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:50.273] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:50.278] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:50.282] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:50.283] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:50.288] Server  ERROR   Registration error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__b1c0375f._.js:67:48
+
+  64 const body = await request.json();
+  65 const { name, email, password, role } = body;
+  66 // Check if user already exists
+→ 67 const existingUser = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:04:58.794] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.795] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:04:58.799] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.803] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.809] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.811] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.812] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.814] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.818] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.820] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.827] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:04:58.829] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.831] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:04:58.840] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.842] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.844] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.847] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.849] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.851] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.856] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.859] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.863] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
+[00:04:58.868] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.872] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\@prisma\client\runtime\library.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
+[00:04:58.876] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.883] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\node_modules_next_fd8dc23a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.885] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.889] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.897] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.900] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.910] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.913] Server  ERROR   C:\Users\Admin\Desktop\new\pharmacy\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:58.923] Server  ERROR   Login error: PrismaClientInitializationError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Admin\Desktop\new\pharmacy\.next\dev\server\chunks\[root-of-the-server]__9be96a32._.js:67:40
+
+  64 const body = await request.json();
+  65 const { email, password, role } = body;
+  66 // Find user
+→ 67 const user = await prisma.user.findUnique(
+Error in connector: Error creating a database connection. (Kind: An error occurred during DNS resolution: proto error: io error: A socket operation was attempted to an unreachable network. (os error 10051), labels: {})
